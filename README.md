@@ -1,4 +1,4 @@
-# tickEasy Check Easy - Mobile Verification App
+# Tick Easy Check Easy - Mobile Verification App
 
 [![Main Platform](https://img.shields.io/badge/Main-Platform-brightgreen)](https://event-grid-2-0.vercel.app)
 [![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)](https://flutter.dev)
@@ -44,9 +44,8 @@ tickEasy Check Easy is a professional-grade mobile verification system that tran
 - **QR Code Processing**: Advanced scanning and validation
 
 ### Performance Optimizations
-- **High-Concurrency Handling**: Optimized for 1000+ simultaneous users
+- **Concurrency Handling**: Connection Pooling is used to handle concurrent access. 
 - **Network Efficiency**: Minimal data usage for fast operations
-- **Battery Optimization**: Extended device usage for long events
 
 ## 🚀 Real-World Performance
 
@@ -60,61 +59,11 @@ tickEasy Check Easy is a professional-grade mobile verification system that tran
 ### Impact
 Traditional manual check-in processes become impossible at scale. This app enables seamless, error-free verification that scales with event size while providing real-time insights to event organizers.
 
-## 👥 Target Users
-
-### Primary Users (Current)
-- **Event Organizers**: Full event oversight and management
-- **Event Staff**: Front-line ticket verification
-- **Security Personnel**: Access control and verification
-- **Venue Managers**: Entry point management
-
-### Planned Users (In Development)
-- **General Users**: Complete tickEasy web portal features on mobile
-- **Attendees**: Self-service ticket management
-- **Vendors**: Event-related service providers
-
-## 🔧 Installation & Setup
-
-### Prerequisites
-- Flutter SDK (latest stable version)
-- Android Studio / VS Code
-- Android/iOS device or emulator
-
-### Development Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/minhaj47/tick_easy_check_easy_2_0.git
-   cd tick_easy_check_easy_2_0
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure API endpoints**
-   ```dart
-   // lib/config/api_config.dart
-   const String API_BASE_URL = "your_tickeasy_backend_url";
-   ```
-
-4. **Run the application**
-   ```bash
-   flutter run
-   ```
-
-### Organization Setup
-- Contact tickEasy platform administrators for organization credentials
-- Configure event-specific settings through main platform
-- Distribute app to authorized event staff
-
 ## 📱 App Workflow
 
 ### Authentication Flow
-1. **Staff Login**: JWT-based secure authentication
-2. **Organization Verification**: Server-side credential validation
-3. **Event Selection**: Choose active event for verification
+2. **Organization Verification**: JWT based Server-side credential validation
+3. **Event Selection**: Choose active event for verification (Implementation ongoing)
 
 ### Verification Process
 1. **QR Code Scan**: Point camera at ticket QR code
@@ -123,21 +72,6 @@ Traditional manual check-in processes become impossible at scale. This app enabl
 4. **Attendance Marking**: Automatic check-in recording
 5. **Sync to Platform**: Real-time data update to main system
 
-## 🏗️ Project Structure
-
-```
-tick_easy_check_easy_2_0/
-├── lib/
-│   ├── models/          # Data models and entities
-│   ├── services/        # API and authentication services
-│   ├── screens/         # UI screens and widgets
-│   ├── utils/           # Helper functions and utilities
-│   └── main.dart        # Application entry point
-├── android/             # Android-specific configurations
-├── ios/                 # iOS-specific configurations
-└── pubspec.yaml         # Flutter dependencies
-```
-
 ## 🔗 Platform Integration
 
 ### Main Platform Connection
@@ -145,11 +79,6 @@ tick_easy_check_easy_2_0/
 - **Repository**: [Main Platform Repo](https://github.com/[YOUR_MAIN_REPO])
 - **API Integration**: Shared backend infrastructure
 - **Real-time Sync**: Bidirectional data flow
-
-### Data Synchronization
-- **Ticket Validation**: Live verification against main database
-- **Attendance Tracking**: Real-time check-in updates
-- **Analytics**: Instant reporting to organization dashboard
 
 ## 🚀 Roadmap
 
