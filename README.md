@@ -8,7 +8,7 @@ A powerful Flutter-based mobile application designed for real-time ticket verifi
 
 ## 🎥 Demo Video
 
-[![App Demo](https://img.shields.io/badge/Watch-Demo%20Video-red)](DEMO_VIDEO_LINK)
+[![App Demo](https://img.shields.io/badge/Watch-Demo%20Video-red)](https://www.linkedin.com/posts/minhaj47_tickabreasyabrcheckabreasy-activity-7356356844602171392-4ixD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE209DMBvW37yHURhOo-ThHaHkN6xOnHD6Q)
 
 ## 🎯 Overview
 
